@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --app-bg: #f6f8f7;
+  --panel-bg: #ffffff;
+  --panel-border: #e5e7eb;
+  --accent: #1ea96b;
+  --accent-soft: #e7f7ef;
+  --text-strong: #0f172a;
+  --text-muted: #64748b;
+}
+
+body {
+  font-family: "Segoe UI Variable Text", "Segoe UI", "Candara", "Tahoma", sans-serif;
+  background: radial-gradient(1200px 800px at 10% -10%, #f1f7f3 0%, #f6f8f7 45%, #f9fafb 100%);
+  color: var(--text-strong);
+}
+
+* {
+  box-sizing: border-box;
+}
